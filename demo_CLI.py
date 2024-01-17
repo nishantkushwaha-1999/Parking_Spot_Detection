@@ -37,7 +37,7 @@ if __name__=="__main__":
     spot_detection = SpotDetection()
 
     cap = cv2.VideoCapture(path)
-    cap.set(cv2.CAP_PROP_FPS, 5)
+    # cap.set(cv2.CAP_PROP_FPS, 5)
     while True:
         # start = time.time()
         ret, frame = cap.read()
